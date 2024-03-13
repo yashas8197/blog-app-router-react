@@ -1,5 +1,6 @@
 import Header from "../component/Header";
 import Footer from "../component/Footer";
+import { Link } from "react-router-dom";
 
 function Blogs() {
   return (
@@ -17,6 +18,9 @@ function Blogs() {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
+                  <Link to="/blogs/1" className="btn btn-primary">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -28,6 +32,9 @@ function Blogs() {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
+                  <Link to="/blogs/2" className="btn btn-primary">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -40,6 +47,9 @@ function Blogs() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry.
                     </p>
+                    <Link to="/blogs/3" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
